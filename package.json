@@ -4,16 +4,20 @@
   "description": "Boilerplate for Discord Akairo Command Framework",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "start": "node index.js"
   },
   "author": "Snipey",
   "license": "ISC",
   "dependencies": {
+    "@sentry/node": "^5.9.0",
     "chalk": "^2.4.2",
     "discord-akairo": "^8.0.0-beta.8",
     "discord.js": "github:discordjs/discord.js",
     "moment": "^2.24.0",
     "sequelize": "^5.19.2",
     "sqlite": "^3.0.3"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
   }
 }

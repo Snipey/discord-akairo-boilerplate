@@ -8,7 +8,7 @@ const Setting = db.define('settings', {
 		allowNull: false,
 	},
 	settings: {
-		type: Sequelize.JSONB,
+		type: Sequelize.JSON,
 		allowNull: false,
 		default: {},
 	},

@@ -1,7 +1,7 @@
 const path = require('path');
-const SporkClient = require(path.join(__dirname + '/client/SporkClient'));
+const BoilerplateClient = require(path.join(__dirname + '/client/BoilerplateClient'));
 require('dotenv').config();
-const client = new SporkClient({ owner: process.env.OWNERS, token: process.env.DISCORD_TOKEN });
+const client = new BoilerplateClient({ owner: process.env.OWNERS, token: process.env.DISCORD_TOKEN });
 const Sentry = require('@sentry/node');
 
 // Load Logger
